@@ -61,6 +61,38 @@ public class StackTest
 > 	+ ###### next() : 요소 하나씩 가져오는 메소드
 > 	+ ###### hasNext() : 다음번에 요소가 들어있는지 여불르 알려준느 메소드 있으면 True로 없으면 False
 
+```
+import java.util.*;
+public class ArrayTest
+{
+    public static void main(String[] args){
+        ArrayList<String> al = new ArrayList<String>(); 
+        
+        al.add("SunMoon");
+        al.add("GSE");
+        al.add("강다빈");
+        
+        // System.out.println(al.get(0));
+        // System.out.println(al.get(1));
+        // System.out.println(al.remove(0));
+        // System.out.println(al.get(0));
+        
+        for(int i = 0; i < al.size() ; i++){
+            System.out.println(al.get(i));
+        }
+
+        Iterator<String> it = al.iterator(); 
+        while(it.hasNext()){
+            String x = it.next();
+            System.out.println(x);      
+        }
+    }
+}
+```
+
+![출력화면](https://user-images.githubusercontent.com/63287630/94413363-f1100780-01b5-11eb-901d-140657142e29.png)
+
+
 ##### 2020.09.23
 + Collection 클래스
 	+ 모든 메소드는 static 타입
@@ -69,4 +101,28 @@ public class StackTest
 		+ ###### reverse() : 요소의 순서를 반대로 함
 		+ ###### max(), mini() : 요소들의 최대, 최솟값을 찾아냄 
 		+ ###### binaryserach(): 특정 값을 검색
-			+ => Collectios.sort() , Collections.reverse()
+			+ => Collectios.sort() , Collections.reverse()  
+
+```
+public class GStack<T> 
+{
+    private int top;
+    Object[] s; 
+    
+    public GStack(){
+        top = -1;
+        s = new Object[6];
+    }
+
+    public void push(T data){
+        top += 1;
+        s[top] = data;
+    }    
+    
+    public T pop(){
+        T result = (T)s[top];
+        top -= 1;
+        return result;
+    }
+}
+```
