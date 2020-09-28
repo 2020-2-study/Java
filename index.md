@@ -4,7 +4,7 @@
 
 ##### 2020.09.21
 
-> ##### `stack<Interger> s = new Stack<Integer>; `
+> ##### `stack<Interger> s = new Stack<Integer>;`
 > + 컬렉션에는 객체만 저장될 수 있기 때문에 기본적인 데이터 타입 **int**와 같은 경우는 불가능하다. 따라서 <Integer>와 같이 입력한다.
 
 > + ###### peek() : 스택에서 제일 위인 top을 리턴
@@ -47,7 +47,7 @@ public class StackTest
 >
 >  
 > + **문자열이 저장되는 ArrayList**
-> + ##### `ArrayList<String> al = new ArrayList<String>();
+> + ##### `ArrayList<String> al = new ArrayList<String>();`
 > 	+ ###### add() : 요소 저장(삽입)하는 메소드
 > 	+ ###### get() : 저장되어있는 것을 가져오는 메소드
 > 	+ ###### remove() : 요소 삭제
