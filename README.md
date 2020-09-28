@@ -33,7 +33,7 @@ public class StackTest
 
 ![출력화면](https://user-images.githubusercontent.com/63287630/94412508-d38e6e00-01b4-11eb-812a-d1b75a150943.png)
 
-> + ** ArrayList< E > **
+> + **ArrayList< E >**
 > + < > 안에는 객체만 저장할 수 있기 때문에 원하는 클래스의 이름을 넣어야 한다. 
 > 	+ 말 그대로 배열과 비슷하지만 크기가 **가변적(마음대로 변경 가능)**이기 때문에 배열보다 좋다.
 > 	+ **객체만 저장가능**
