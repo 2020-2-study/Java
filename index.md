@@ -46,8 +46,8 @@ public class StackTest
 >
 >
 >  
->  * **문자열이 저장되는 ArrayList **  
->  	* ##### `ArrayList<String> al = new ArrayList<String>();`    
+>  * **문자열이 저장되는 ArrayList**  
+>  	* ##### `` ArrayList<String> al = new ArrayList<String>();``    
 >  		* ###### add() : 요소 저장(삽입)하는 메소드  
 >  		* ###### get() : 저장되어있는 것을 가져오는 메소드  
 >  		* ###### remove() : 요소 삭제  
