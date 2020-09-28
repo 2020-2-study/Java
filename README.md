@@ -7,9 +7,31 @@
 > ##### `stack<Interger> s = new Stack<Integer>; `
 > + 컬렉션에는 객체만 저장될 수 있기 때문에 기본적인 데이터 타입 **int**와 같은 경우는 불가능하다. 따라서 <Integer>와 같이 입력한다.
 
-+ ###### peek() : 스택에서 제일 위인 top을 리턴
-+ ###### empty() : 스택이 비어있는지 test 한다. 만약 비어있으면 true, 비어있지 않으면 false를 return한다.
-+ ###### search() : 인덱스 값을 리턴 만약 들어있지 않는 값을 입력하면 -1이 리턴된다.	
+> + ###### peek() : 스택에서 제일 위인 top을 리턴
+> + ###### empty() : 스택이 비어있는지 test 한다. 만약 비어있으면 true, 비어있지 않으면 false를 return한다.
+> + ###### search() : 인덱스 값을 리턴 만약 들어있지 않는 값을 입력하면 -1이 리턴된다.	
+
+``` 	
+import java.util.*;
+public class StackTest
+{
+    public static void main(String[] args){
+        Stack<Integer> s = new Stack<Integer>();
+        s.push(921);
+        s.push(2020);
+        s.push(11);
+
+        System.out.println("pop: " + s.pop());
+        
+        System.out.println("peek: " + s.peek());
+        System.out.println("empty: " + s.empty());
+        System.out.println("search(2020) : "+ s.search(2020));
+        System.out.println("search(11) : " + s.search(11));
+    }
+}
+```
+
+![출력화면](https://user-images.githubusercontent.com/63287630/94412508-d38e6e00-01b4-11eb-812a-d1b75a150943.png)
 
 > + ** ArrayList< E > **
 > + < > 안에는 객체만 저장할 수 있기 때문에 원하는 클래스의 이름을 넣어야 한다. 
