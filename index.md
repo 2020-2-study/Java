@@ -33,7 +33,7 @@ public class StackTest
 
 ![출력화면](https://user-images.githubusercontent.com/63287630/94412508-d38e6e00-01b4-11eb-812a-d1b75a150943.png)
 
-> + **ArrayList< E >**
+> + ###ArrayList< E >
 > + < > 안에는 객체만 저장할 수 있기 때문에 원하는 클래스의 이름을 넣어야 한다. 
 > 	+ 말 그대로 배열과 비슷하지만 크기가 **가변적(마음대로 변경 가능)**이기 때문에 배열보다 좋다.
 > 	+ **객체만 저장가능**
@@ -46,14 +46,14 @@ public class StackTest
 >
 >
 >  
-> + **문자열이 저장되는 ArrayList**
+> + ### 문자열이 저장되는 ArrayList
 > + ##### `ArrayList<String> al = new ArrayList<String>();`
 > 	+ ###### add() : 요소 저장(삽입)하는 메소드
 > 	+ ###### get() : 저장되어있는 것을 가져오는 메소드
 > 	+ ###### remove() : 요소 삭제
 > 	+ ###### size(): ArrayList 안에 들어있는 요소들의 개수를 알려주는 메소드
 
-> + **iterator() 인터페이스**
+> + ### iterator() 인터페이스
 > 	+ 어떠한 컬렉션에도 적용이 됨.
 > 	+ 컬렉션은 많은 요소들이 저장되어 있고 그런 요소들마다 반복적인 처리를 하는 일들이 많아서 좀 더 편리하게 하기 위해 만듦
 > 	+ ###### next() : 요소 하나씩 가져오는 메소드
