@@ -97,7 +97,7 @@ public class ArrayTest
 + Collection 클래스
 	+ 모든 메소드는 static 타입
 	+ 주요 메소드
-		+ ###### sort() : 컬랙션에 포함된 요소들을 소팅
+		+ ######sort() : 컬랙션에 포함된 요소들을 소팅
 		+ ###### reverse() : 요소의 순서를 반대로 함
 		+ ###### max(), mini() : 요소들의 최대, 최솟값을 찾아냄 
 		+ ###### binaryserach(): 특정 값을 검색
